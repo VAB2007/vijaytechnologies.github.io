@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fullcontainer{
+  background-color: white;
+}
+
+.bar{
+  background-color: skyblue;
+  width: auto;
+  text-decoration: none;
+}
+
+.barnav{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+#profiles{
+    text-align: center;
+    color: black;
+    width: 800px;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-top: 20px; 
+    background-color: skyblue;
+    font-size: 50px;
+}
+
+.stop{
+    background-color: skyblue;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container1{    
+    width: 20px auto;
+    margin: auto;
+    padding: auto;
+
+}
+
+.profile{
+    display: inline-block;
+    border: 5px transparent black;
+    width: 500px;
+    height: 200px;
+    bottom: 0;
+}
+
+.profile1{
+    display: inline-block;
+    border: 5px transparent black;
+    width: 500px;
+    height: 200px;
+    bottom: 0;  
+}
+
+.service{
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    height: 20px auto;
+    font-size: 25px;
+    bottom: 0px;
+    width: 100%;
+    box-shadow:  5px 20px 50px  skyblue;
+}
+
+#gold{
+    padding: 20px;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.about{
+    text-align: center;
+    color: black;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    font-size: 50px;
+}
+
+.all{
+    font-size: 20px;
+}
+
+.heading{
+    background-color: skyblue;
+    text-align: center;
+}
+
+#mainpage{
+    text-decoration: none;
+    width: 20px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+#tab{
+    text-align: center;
+    color: black;
+    width: 450px;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: skyblue;
+    font-size: 50px;
+}
+
+#imgcctv{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.cctv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 300px; 
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow:  5px 20px 50px  skyblue;
+}
+
+#cctvtxt{
+    text-align: center;
+}
+
+.cctvlink{
+    text-decoration: none;
+    text-align: center;
+    margin-left : 50px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: skyblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 175px;
+  }
+
+.maindiv{
+        width: 100% auto;
+        height: 100% auto;
+        position: relative;
+        background-image: url(https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg);
+        background-size: 100% 100%;
+        animation:slider 18s infinite linear;
+        text-align: center;
+        color: black;
+        margin-left: 100px;
+        margin-right: 100px;
+        box-shadow:  5px 20px 50px  skyblue;
+}
+
+.slidetext{
+  color: rgba(0, 0,0, .85);
+  font-size: 70px;
+  padding-top: 150px;
+}
+
+.slidetext1{
+   color: rgba(0, 0, 0, .85);
+   font-size: 70px;
+   padding-bottom: 150px;
+}
+
+.visit{
+  font-size: 35px;
+}
+
+@keyframes slider{
+        0%{
+          background-image: url('https://www.ulaginoli.com/wp-content/uploads/2018/05/solar-1495928_1920.jpg');
+          from{opacity: .4;}
+          to{opacity: 1} 
+        }
+        16.66%{
+          background-image: url('https://content3.jdmagicbox.com/comp/pune/r4/020pxx20.xx20.170117134501.i4r4/catalogue/vijay-technologies-closed--manjari-budruk-pune-cctv-dealers-wss0dbgwbw.jpg');
+          from{opacity: .4;}
+          to{opacity: 1} 
+        }
+        33.33%{
+          background-image: url('https://totalhometx.com/wp-content/uploads/2018/01/iStock-543047254.jpg-1152x576-1.jpeg');
+          from{opacity: .4;}
+          to{opacity: 1} 
+        }
+        50%{
+          background-image: url('https://pcbdesignworld.com/sites/default/files/main-image/PCB-Design-Guidelines-for-Assembly-%28DFA%29.jpg');
+          from{opacity: .4;}
+          to{opacity: 1} 
+        }
+        66.66%{
+          background-image: url('https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg');
+          from{opacity: .4;}
+          to{opacity: 1} 
+        }
+        83.32%{
+          background-image: url('https://ph-live-05.slatic.net/p/2/cctv-dvr-4ch-digital-video-recorder-ahd-h-264-hybrid-home-security-dvr-9766-1547151-12f47e42a23361221a9e308fe1760146-catalog.jpg_720x720q80.jpg_.webp');
+          from{opacity: .4;}
+          to{opacity: 1} 
+        }
